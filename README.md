@@ -18,5 +18,11 @@ Recommended VS Code extensions for CYF learners.
 | Playwright | `ms-playwright.playwright` | Run Playwright tests in VS Code |
 | Extension Pack for Java | `vscjava.vscode-java-pack` | Work with Java in VS Code |
 
+## Editor defaults
+
+This pack also turns off autocomplete and AI suggestions (Copilot, IntelliSense popups, snippets, tab completion) by default, so that learners type code themselves instead of having answers completed for them.
+
+Suggestions are still available on demand with `Ctrl+Space` (`⌃Space` on Mac), and any of these defaults can be overridden in your own user settings.
+
   [1]: https://img.shields.io/github/actions/workflow/status/CodeYourFuture/cyf-extension-pack/push.yml?branch=main
   [2]: https://github.com/CodeYourFuture/cyf-extension-pack/actions/workflows/push.yml

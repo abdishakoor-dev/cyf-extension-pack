@@ -1,7 +1,7 @@
 {
   "name": "cyf-extension-pack",
   "displayName": "CodeYourFuture Extension Pack",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "homepage": "https://github.com/codeyourfuture/cyf-extension-pack",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "LICENSE"
   ],
   "engines": {
-    "vscode": "^1.43.0"
+    "vscode": "^1.63.0"
   },
   "icon": "cyf-logo.png",
   "galleryBanner": {
@@ -35,6 +35,23 @@
   "categories": [
     "Extension Packs"
   ],
+  "contributes": {
+    "configurationDefaults": {
+      "editor.inlineSuggest.enabled": false,
+      "github.copilot.enable": { "*": false },
+      "github.copilot.nextEditSuggestions.enabled": false,
+      "chat.commandCenter.enabled": false,
+      "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+      },
+      "editor.suggestOnTriggerCharacters": false,
+      "editor.wordBasedSuggestions": "off",
+      "editor.snippetSuggestions": "none",
+      "editor.tabCompletion": "off"
+    }
+  },
   "extensionPack": [
     "dbaeumer.vscode-eslint",
     "eamodio.gitlens",
